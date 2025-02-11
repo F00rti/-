@@ -13,8 +13,9 @@ function createMouse(){
 mouse.onclick = function(){
     score = score+1;
     document.getElementById("score").innerHTML="Счёт: "+score;
-    gameArea.replaceChild(mouse);
+    gameArea.removeChild(mouse);
     createMouse();
 }
 gameArea.appendChild(mouse);
 }
+createMouse()
