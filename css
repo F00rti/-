@@ -1,0 +1,13 @@
+#gameArea{
+    width: 100%;
+    height: 500px;
+    border: solid 2px rgb(112, 222, 184);
+    position: relative;
+}
+.mouse{
+    background-image: url("Mouse.png");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+}
