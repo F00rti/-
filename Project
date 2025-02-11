@@ -1,0 +1,14 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра</title>
+    <script src="p.js"></script>
+    <link rel="stylesheet" href="с.css">
+</head>
+<body>
+    <h1>Пsfddfsfdgfgdfbgd</h1>
+    <h2 id="score">Счёт: 0</h2>
+    <div id="gameArea"></div>
+</body>
+</html>
