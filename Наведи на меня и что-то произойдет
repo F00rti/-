@@ -1,0 +1,10 @@
+ <h1 id="text">Наведи на меня курсор!Без лишних вопросов, просто наведи *_*</h1>
+    <script>
+    let text = document.getElementById("text");
+    text.addEventListener("mouseover", function(){
+        text.innerHTML = "^_^";
+    })
+    text.addEventListener("mouseout", function(){
+        text.innerHTML = "Наведи на меня курсор!Без лишних вопросов, просто наведи *_*";
+    })
+    </script>
